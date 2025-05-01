@@ -1,0 +1,49 @@
+/* Container for the dropdown */
+.dropdown-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Language label */
+  .dropdown-label {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #F97316;
+    margin-right: 15px;
+  }
+  
+  /* Dropdown Select Style */
+  .custom-select {
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Focused state for select */
+  .custom-select:focus {
+    border: 1px solid #F97316;
+    box-shadow: 0 0 5px rgba(249, 115, 22, 0.5);
+    outline: none;
+  }
+  
+  /* Option styles */
+  .custom-select option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Hover effect for select options */
+  .custom-select:hover {
+    border-color: #F97316;
+  }
+  

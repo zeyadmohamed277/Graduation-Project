@@ -1,0 +1,13 @@
+.colom:hover .overlay {
+   top: 0;
+}
+
+.overlay {
+   background-color: rgba(234, 231, 231, 0.884);
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 100%;
+   transition: top 1s;
+}

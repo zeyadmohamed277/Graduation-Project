@@ -1,0 +1,127 @@
+/* Form Container */
+.form-container {
+    width: 700px;
+    padding: 15px;
+    background: linear-gradient(to bottom, #ffffff, #ffe4b5);
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #333;
+    font-family: 'roboto', sans-serif;
+    border: 2px solid #F97316;
+margin: auto;
+}
+
+/* Form Heading */
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Input Container */
+.input-container {
+    position: relative;
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Input Field */
+.input-field {
+    width: 50%;
+    padding: 12px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+/* Floating Label */
+.input-label {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #555;
+    transition: 0.3s ease-in-out;
+    pointer-events: none;
+    background: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+/* Move Label Up on Focus or When Input Has Value */
+.input-field:focus+.input-label,
+.input-field:not(:placeholder-shown)+.input-label {
+    top: -10px;
+    left: 10px;
+    font-size: 14px;
+    color: #007BFF;
+    font-weight: bold;
+    padding: 0 8px;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Input Field Focus Effect */
+.input-field:focus {
+    border: 2px solid #007BFF;
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit Button */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    /* Bold blue */
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button Hover Effect */
+.submit-btn:hover {
+    background: #007BFF;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Style for the paragraph */
+p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+}
+
+/* Style for the login link */
+a.login-link {
+    font-weight: bold;
+    color: #FFD700;
+    /* Gold for contrast */
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out, transform 0.2s;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+a.login-link:hover {
+    color: #FFA500;
+    /* Warm orange */
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+/* Active Effect */
+a.login-link:active {
+    transform: scale(0.95);
+}
